@@ -1,0 +1,97 @@
+    /* NAVBAR */
+nav{
+    background-color: rgb(57, 74, 92);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    padding-right: 150px;
+    width: 400px;
+    justify-content: space-around;
+    /* padding-right: 20px; */
+}
+
+nav>p{
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+
+}
+
+nav>ul>li{
+    justify-content: space-around;
+}
+    /* FIN NAVBAR */
+
+
+    /* STRART CSS */
+        #StartCSS{
+            background-color: rgb(247, 72, 72);
+            color: white;
+            width: 100%;
+        }
+
+        #StartCSS>div{
+            display: flex;
+            justify-content: center;
+        }
+
+        #StartCSS>div>img{
+            width: 250px;
+        }
+
+        #StartCSS>ul{
+            list-style: none;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        #StartCSS>ul>li{
+            padding-right: 10px;
+            /* margin-right: 10px; */
+        }
+        h1{
+            text-align: center;
+            padding-left: 40px;
+        }
+    /* START CSS */
+
+    /* PORTFOLIO */
+        h2{
+            text-align: center;
+        }
+
+        #portfolio>ul{
+            list-style: none;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        #portfolio>ul>li>img{
+            width: 200px;
+        }
+    /* FIN PORTFOLIO */
+   
+    /* ABOUT */
+        #about{
+            background-color: rgb(247, 81, 81);
+            color: white;
+        }
+
+        #about>ul{
+            list-style: none;
+            display: flex;
+            border: solid yellow 3px;
+            height: 100px;
+        }
+        #about>ul>li{
+            border: solid black 2px;
+            ;
+        }
+    /* FIN ABOUT */
